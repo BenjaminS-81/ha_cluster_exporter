@@ -44,6 +44,9 @@ git clone https://github.com/ClusterLabs/ha_cluster_exporter
 cd ha_cluster_exporter
 make
 make install
+
+- Make sure you upgrade the go version before applying the above.
+- If you get 'mockgen' fail message use => go get github.com/golang/mock/mockgen
 ```
 
 ### Go
